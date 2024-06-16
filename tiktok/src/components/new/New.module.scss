@@ -1,0 +1,76 @@
+.new{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    .new-view{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 10; 
+        top: 0;
+        left: 0;
+        background-color: #000000a7;
+        .new-view-item{
+            width: 100%;
+            height: 100%;
+            background: #fff;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            .new-view-table{
+                display: flex;
+                .new-view-text{
+                    margin-left: 10px;
+                    width: 350px;
+                }
+            }
+        }
+        .icon-close {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            background: #f0eeee;
+            padding: 8px 10px;
+            border-radius: 50%;
+        }
+    }
+    .new-left{
+        display: flex;
+        width: 100%;
+        height: 250px;
+        cursor: pointer;
+        .new-left-item{
+            display: flex;
+            flex-direction: column;
+        }
+        p{
+            margin-left: 10px;
+            overflow: hidden; 
+        }
+        img{
+            border-radius: 5px;
+            width: 400px;
+        }
+    }
+    .new-right{
+        display: flex;
+        margin-top: 50px;
+        height: 100px;
+        width: 100%;
+        .new-right-item{
+            display: flex;
+            overflow: hidden; 
+            border: 1px solid #ccc;
+            margin-left: 10px;
+        }
+        img{
+            margin-right: 10px;
+            height: 100px;
+            border-radius: 5px;
+            width: 100px;
+        }
+    }
+}

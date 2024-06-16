@@ -1,0 +1,95 @@
+.upload-wrapper {
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 350px;
+    background-color: #000;
+  }
+  
+  .upload-preview {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    background-color: #000;
+    overflow: hidden;
+  }
+  
+  .upload-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+  }
+  .upload{
+    position: relative;
+  }
+  .upload-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .upload-progress {
+    height: 4px;
+    width: 0;
+    background-color: #fff;
+    transition: width 0.3s ease;
+  }
+  
+  .upload-cancel,
+  .upload-submit {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .upload-select {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px dashed #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .upload-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url('https://cdn.iconscout.com/icon/free/png-256/cloud-upload-1439985-1213657.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .upload-text {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .upload-input {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    opacity: 0;
+    cursor: pointer;
+  }

@@ -1,0 +1,17 @@
+.menu-item {
+    display: flex;
+    font-size: 1.1rem;
+    align-items: center;
+    font-weight: 700;
+    border-radius: 4px;
+    transform: background-color ease-in-out 200ms;
+    &:hover {
+        background-color: rgba(22,24,35,0.03);
+    }
+    &.active{
+        color: rgba(254, 44, 85, 1);
+    }
+}
+.title {
+    margin: 12px;
+}

@@ -1,0 +1,41 @@
+.container{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px 0 100px;
+    background-color: #000;
+    .logo-img{
+        display: flex;
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        .logo-img{
+            display: flex;
+            align-items: center;
+            img{
+                height: 40px;
+            }
+            h3{
+                color: #fff;
+            }
+        }
+        button{
+            margin-top: 200px;
+            padding: 10px 50px;
+            background: none;
+            border: 1px solid #ccc;
+            color: #fff;
+        }
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        span{
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
+    }
+}

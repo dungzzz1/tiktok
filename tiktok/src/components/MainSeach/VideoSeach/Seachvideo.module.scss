@@ -1,0 +1,48 @@
+.Seach{
+    .Seach-video{
+        .header-video{
+            display: flex;
+            flex-wrap: wrap;
+            flex: 1;
+            video {
+                height: 442px;
+                width: 275px;
+                object-fit: cover;
+                border-radius: 5px;
+                margin-right: 15px;
+                margin-top: 10px;
+            }
+        }
+    }
+    .bottom{
+        margin-top: 5px;
+        width: 275px;
+        display: flex;
+        flex-wrap: wrap;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        .text{
+            color: blue;
+        }
+    }
+    .item{
+        display: flex;
+        justify-content: space-between;
+        width: 275px;
+        margin-top: 7px;
+        height: 30px;
+        line-height: 30px;
+        .imge{
+            display: flex;
+            span{
+                margin-left: 8px;
+            }
+            img{
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+        }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+/* khối chứa thanh trượt */
+.container {
+    overflow: auto; /* hiển thị thanh trượt khi nội dung vượt quá kích thước của khung nhìn */
+    max-height: 500px; /* giới hạn chiều cao của khối */
+}
+
+/* thanh trượt */
+.container::-webkit-scrollbar {
+    width: 8px; /* độ rộng của thanh trượt */
+    height: 8px;
+    background-color: #fff; /* màu nền của thanh trượt */
+}
+
+/* nút kéo giữa */
+.container::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* màu sắc của nút kéo giữa */
+}
+
+/* nút kéo giữa khi hover */
+.container:hover::-webkit-scrollbar-thumb {
+    background-color: #aaa; /* màu sắc của nút kéo giữa khi hover */
+}
+
+/* thanh trượt khi hover */
+.container:hover::-webkit-scrollbar {
+    width: 8px; /* độ rộng của thanh trượt khi hover */
+    height: 8px;
+    background-color: #fff; /* màu nền của thanh trượt khi hover */
+}
